@@ -1,0 +1,40 @@
+import time
+import random
+
+#This is the main section, where we will do our main work. If you can, please describe what the sections you develop do. 
+
+#This section is devoted to setting up the functions. Type in whatever functions you are going to use here.
+def Intro():
+    Mainmenu()
+    PLACEHOLDER()
+    PLACEHOLDER()
+    
+def Mainmenu():
+    print("Welcome to Eternal Reckoning, young traveler. An exciting adventure awaits you.")
+    time.sleep(5)
+    print("""MENU:
+    1. New Game
+    2. Options
+    3. Exit""")
+    options = input("")
+    if options == '1':
+        print("""Very well, traveler. 
+        Be warned, this journey is frought with danger. 
+        You must defend yourself at some points, but I have confidence that you can handle yourself in a fight.
+        Good luck, and may the gods watch over your battles."""
+        time.sleep(8)
+        Intro()
+    elif options == '2':
+        print("So sorry, but the options tab is not available -I.E. this is just for looks-")
+        time.sleep(4)
+        return options
+    elif options == '3':
+        print("I see. You have not prepared yourself yet. Come back when you are ready")
+        time.sleep(4.5)
+        return
+def Intro():
+    print("In the beginning...")
+    time.sleep(2)
+    print("...since time immemorial...")
+    time.sleep(2.5)
+    print("
