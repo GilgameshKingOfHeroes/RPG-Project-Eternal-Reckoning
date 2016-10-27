@@ -37,4 +37,5 @@ def Intro():
     time.sleep(2)
     print("...since time immemorial...")
     time.sleep(2.5)
-    print("
+    print("their has been myth of a man who conquered all, A legend known as _______")
+    
