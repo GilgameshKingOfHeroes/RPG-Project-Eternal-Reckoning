@@ -37,5 +37,13 @@ def Intro():
     time.sleep(2)
     print("...since time immemorial...")
     time.sleep(2.5)
-    print("their has been myth of a man who conquered all, A legend known as _______")
+    print("""...There has been a myth of a man who conquered all,
+    one who braved the toughest of lands,
+    the harshest of seas,
+    the deadliest of foes,
+    to become the One True King of Lux.
+    His name is unimportant,
+    lost to the ever-changing sea of history,
+    But he is known to the rest of the world...
+    AND HIS NAME IS JOHN CENA@!!!!#@#E#YOLOSWAG420BLAZEIT""")
     
