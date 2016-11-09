@@ -6,9 +6,11 @@ import random
 #This section is devoted to setting up the functions. Type in whatever functions you are going to use here.
 #def Intro(): PLACEHOLDER()
     
-def Mainmenu():
+def Mainmenu1():
     print("Welcome to Eternal Reckoning, young traveler. An exciting adventure awaits you.")
     time.sleep(5)
+    Mainmenu2()
+def Mainmenu2():
     print("""MENU:
     1. New Game
     2. Options
@@ -43,4 +45,4 @@ def Intro():
     lost to the ever-changing sea of history,
     But he is known to the rest of the world...
     AND HIS NAME IS JOHN CENA@!!!!#@#E#YOLOSWAG420BLAZEIT""")
-Mainmenu()
+Mainmenu1()
